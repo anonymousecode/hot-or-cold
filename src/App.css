@@ -1,0 +1,21 @@
+/* Remove default margin and padding from html and body */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  margin: 0;
+  padding: 0;
+}
+
+/* Make sure #root doesn't exceed the full width */
+#root {
+  max-width: 100%; /* Allow the root to take the full width */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Ensure body and #root are constrained to the viewport size */
+body {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
