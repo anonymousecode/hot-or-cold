@@ -2,3 +2,4 @@
   for = "/sitemap.xml"
   [headers.values]
     Content-Type = "application/xml"
+    X-Content-Type-Options = "nosniff"
